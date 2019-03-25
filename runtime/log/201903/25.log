@@ -1,0 +1,61 @@
+---------------------------------------------------------------
+[ 2019-03-25T15:53:16+08:00 ] 127.0.0.1 GET prtens-blog.io/admin/dashboard?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;dbname=prtens_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_auth_group_access` [ RunTime:0.059004s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `pr_auth_group_access` `aga` LEFT JOIN `pr_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_auth_rule` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `pr_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.007000s ]
+---------------------------------------------------------------
+[ 2019-03-25T15:53:16+08:00 ] 127.0.0.1 GET prtens-blog.io/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=prtens_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_auth_group_access` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `pr_auth_group_access` `aga` LEFT JOIN `pr_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_auth_rule` [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `pr_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `pr_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.009001s ]
+---------------------------------------------------------------
+[ 2019-03-25T15:53:16+08:00 ] 127.0.0.1 GET prtens-blog.io/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;dbname=prtens_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_auth_group_access` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `pr_auth_group_access` `aga` LEFT JOIN `pr_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_auth_rule` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `pr_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `pr_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-25T15:53:39+08:00 ] 127.0.0.1 GET prtens-blog.io/admin/dashboard?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;dbname=prtens_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_auth_group_access` [ RunTime:1.206069s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `pr_auth_group_access` `aga` LEFT JOIN `pr_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_auth_rule` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `pr_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2019-03-25T15:53:39+08:00 ] 127.0.0.1 GET prtens-blog.io/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=prtens_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_auth_group_access` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `pr_auth_group_access` `aga` LEFT JOIN `pr_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_auth_rule` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `pr_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-25T15:53:40+08:00 ] 127.0.0.1 GET prtens-blog.io/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=prtens_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_auth_group_access` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `pr_auth_group_access` `aga` LEFT JOIN `pr_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_auth_rule` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `pr_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `pr_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2019-03-25T15:53:43+08:00 ] 127.0.0.1 GET prtens-blog.io/admin/index/logout
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=127.0.0.1;dbname=prtens_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_admin` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT * FROM `pr_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] UPDATE `pr_admin`  SET `token`='',`updatetime`=1553500423  WHERE  `id` = 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2019-03-25T15:54:00+08:00 ] 127.0.0.1 GET prtens-blog.io/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=prtens_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_user_token` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT * FROM `pr_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-25T15:54:03+08:00 ] 127.0.0.1 GET prtens-blog.io/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=prtens_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pr_user_token` [ RunTime:0.032001s ]
+[ sql ] [ SQL ] SELECT * FROM `pr_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001001s ]
