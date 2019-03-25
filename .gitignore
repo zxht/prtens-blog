@@ -6,3 +6,6 @@
 
 # runtime
 /runtime/*
+
+# uploads
+/public/uploads/*
